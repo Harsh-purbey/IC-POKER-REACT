@@ -9,15 +9,15 @@ export const Welcome = loadable(() => import('./Welcome'), {
   fallback: <Loading />,
 });
 
-export const Login = loadable(() => import('./Admin/Login'), {
+export const Login = loadable(() => import('./Login'), {
   fallback: <Loading />,
 });
 
-export const Navbar = loadable(() => import('./Admin/Navbar'), {
+export const Navbar = loadable(() => import('./Navbar'), {
   fallback: <Loading />,
 });
 
-export const Sidebar = loadable(() => import('./Admin/Sidebar'), {
+export const Sidebar = loadable(() => import('./Sidebar'), {
   fallback: <Loading />,
 });
 
@@ -46,5 +46,9 @@ export const Transaction = loadable(() => import('./Transaction'), {
 });
 
 export const Tournament = loadable(() => import('./Tournament'), {
+  fallback: <Loading />,
+});
+
+export const MyLineChart = loadable(() => import('./MyLineChart'), {
   fallback: <Loading />,
 });
